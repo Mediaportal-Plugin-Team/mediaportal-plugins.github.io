@@ -1,0 +1,900 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A repository that contains Plugins and Skins for Mediaportal from different authors who, for some reason, stopped updating their plugins.">
+      
+      
+        <meta name="author" content="Mediaportal Plugin Team | Andrew J.Swan">
+      
+      
+        <link rel="canonical" href="https://mediaportal-plugin-team.github.io/">
+      
+      
+      
+        <link rel="next" href="mediaportal/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Mediaportal Plugin Team</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Mediaportal Plugin Team" />
+<meta property="og:description" content="A repository that contains Plugins and Skins for Mediaportal from different authors who, for some reason, stopped updating their plugins." />
+<meta property="og:image" content="https://mediaportal-plugin-team.github.io/assets/images/social/index.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://mediaportal-plugin-team.github.io/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Mediaportal Plugin Team" />
+<meta property="twitter:description" content="A repository that contains Plugins and Skins for Mediaportal from different authors who, for some reason, stopped updating their plugins." />
+<meta property="twitter:image" content="https://mediaportal-plugin-team.github.io/assets/images/social/index.png" />
+</head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mediaportal-plugin-team" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Mediaportal Plugin Team" class="md-header__button md-logo" aria-label="Mediaportal Plugin Team" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17H3V5h18m0-2H3c-1.1 0-2 .9-2 2v12a2 2 0 0 0 2 2h5v2h8v-2h5c1.11 0 2-.89 2-2V5a2 2 0 0 0-2-2m-6 3.5-.62 1.37L13 8.5l1.38.63.62 1.37.63-1.37L17 8.5l-1.37-.63zm-4.5 2-1.09 2.41L7 12l2.41 1.09 1.09 2.41 1.1-2.41L14 12l-2.4-1.09z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mediaportal Plugin Team
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Mediaportal-Plugin-Team" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mediaportal-Plugin-Team
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="mediaportal/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  MediaPortal
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Mediaportal Plugin Team" class="md-nav__button md-logo" aria-label="Mediaportal Plugin Team" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17H3V5h18m0-2H3c-1.1 0-2 .9-2 2v12a2 2 0 0 0 2 2h5v2h8v-2h5c1.11 0 2-.89 2-2V5a2 2 0 0 0-2-2m-6 3.5-.62 1.37L13 8.5l1.38.63.62 1.37.63-1.37L17 8.5l-1.37-.63zm-4.5 2-1.09 2.41L7 12l2.41 1.09 1.09 2.41 1.1-2.41L14 12l-2.4-1.09z"/></svg>
+
+    </a>
+    Mediaportal Plugin Team
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Mediaportal-Plugin-Team" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mediaportal-Plugin-Team
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Development
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plugins
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Plugins">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mp-tvseries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MP-TVSeries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trakt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trakt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trailers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trailers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moving-pictures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Moving Pictures
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mpsync" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MPSync
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dvdart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DVDArt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#imdb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IMDb+
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logomanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LogoManager
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tvserverkodi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TVServerKodi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schedules-direct" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schedules Direct
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#info-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Info Service
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mpei-plugin-aka-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MPEI Plugin aka Extensions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-music-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Global Music Search
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backup-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backup Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lav-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LAV Filters
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skins
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#packages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Packages
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Packages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sqlite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SQLite
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#myget-mirror-mediaportal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MyGet Mirror (Mediaportal)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mediaportal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MediaPortal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<div><h1 id="mediaportal-plugin-team">Mediaportal Plugin Team</h1>
+<p><img align="left" alt="Mediaportal Plugin Team" loading="lazy" src="https://avatars.githubusercontent.com/u/168293775" style="width:10%"></p>
+<p>A repository that contains Plugins and Skins for <a href="https://www.team-mediaportal.com">Mediaportal</a> from different authors who, for some reason, stopped updating their plugins.</p>
+<p><a href="https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md"><img alt="StandWithUkraine" src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg"></a></p>
+<div style="clear: both;"></div>
+
+<h2 id="development">Development</h2>
+<p>All <strong>plugins</strong> in this repository are automatically compiled with each change, the result of the compilation is available in artifacts, just like the <strong>MPE1</strong> installation package.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>When the package configuration file (<strong>XMP2</strong>) is changed, the <strong>Plugin</strong> release is automatically compiled and published.</p>
+</div>
+<h2 id="plugins">Plugins</h2>
+<h3 id="mp-tvseries">MP-TVSeries</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/mptvseries/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mptvseries/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/mptvseries/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mptvseries/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/mptvseries?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mptvseries/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/mptvseries?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mptvseries/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/mptvseries/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mptvseries/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/mptvseries"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mptvseries/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/mptvseries"></a></p>
+<h3 id="trakt">Trakt</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/Trakt-for-Mediaportal/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trakt-for-Mediaportal/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/Trakt-for-Mediaportal/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trakt-for-Mediaportal/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/Trakt-for-Mediaportal?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trakt-for-Mediaportal/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/Trakt-for-Mediaportal?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trakt-for-Mediaportal/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/Trakt-for-Mediaportal/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trakt-for-Mediaportal/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/Trakt-for-Mediaportal"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trakt-for-Mediaportal/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/Trakt-for-Mediaportal"></a></p>
+<h3 id="trailers">Trailers</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/Trailers/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trailers/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/Trailers/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trailers/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/Trailers?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trailers/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/Trailers?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trailers/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/Trailers/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trailers/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/Trailers"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/Trailers/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/Trailers"></a></p>
+<h3 id="moving-pictures">Moving Pictures</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/moving-pictures/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/moving-pictures/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/moving-pictures/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/moving-pictures/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/moving-pictures?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/moving-pictures/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/moving-pictures?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/moving-pictures/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/moving-pictures/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/moving-pictures/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/moving-pictures"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/moving-pictures/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/moving-pictures"></a></p>
+<h3 id="mpsync">MPSync</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/MPSync/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/MPSync/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/MPSync/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/MPSync/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/MPSync?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/MPSync/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/MPSync?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/MPSync/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/MPSync/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/MPSync/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/MPSync"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/MPSync/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/MPSync"></a></p>
+<h3 id="dvdart">DVDArt</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/DVDArt/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/DVDArt/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/DVDArt/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/DVDArt/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/DVDArt?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/DVDArt/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/DVDArt?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/DVDArt/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/DVDArt/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/DVDArt/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/DVDArt"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/DVDArt/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/DVDArt"></a></p>
+<h3 id="imdb">IMDb+</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/IMDbPlus/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/IMDbPlus/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/IMDbPlus/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/IMDbPlus/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/IMDbPlus?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/IMDbPlus/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/IMDbPlus?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/IMDbPlus/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/IMDbPlus/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/IMDbPlus/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/IMDbPlus"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/IMDbPlus/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/IMDbPlus"></a></p>
+<h3 id="logomanager">LogoManager</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/LogoManager/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LogoManager/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/LogoManager/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LogoManager/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/LogoManager?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LogoManager/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/LogoManager?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LogoManager/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/LogoManager/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LogoManager/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/LogoManager"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LogoManager/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/LogoManager"></a></p>
+<h3 id="tvserverkodi">TVServerKodi</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/TVServerKodi/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/TVServerKodi/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/TVServerKodi/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/TVServerKodi/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/TVServerKodi?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/TVServerKodi/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/TVServerKodi?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/TVServerKodi/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/TVServerKodi/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/TVServerKodi/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/TVServerKodi"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/TVServerKodi/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/TVServerKodi"></a></p>
+<h3 id="schedules-direct">Schedules Direct</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/mediaportal-schedulesdirect/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mediaportal-schedulesdirect/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/mediaportal-schedulesdirect/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mediaportal-schedulesdirect/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/mediaportal-schedulesdirect?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mediaportal-schedulesdirect/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/mediaportal-schedulesdirect?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mediaportal-schedulesdirect/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/mediaportal-schedulesdirect/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mediaportal-schedulesdirect/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/mediaportal-schedulesdirect"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mediaportal-schedulesdirect/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/mediaportal-schedulesdirect"></a></p>
+<h3 id="info-service">Info Service</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/InfoService/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/InfoService/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/InfoService/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/InfoService/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/InfoService?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/InfoService/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/InfoService?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/InfoService/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/InfoService/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/InfoService/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/InfoService"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/InfoService/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/InfoService"></a></p>
+<h3 id="mpei-plugin-aka-extensions">MPEI Plugin aka Extensions</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/mpei-plugin/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mpei-plugin/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/mpei-plugin/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mpei-plugin/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/mpei-plugin?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mpei-plugin/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/mpei-plugin?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mpei-plugin/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/mpei-plugin/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mpei-plugin/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/mpei-plugin"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/mpei-plugin/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/mpei-plugin"></a></p>
+<h3 id="global-music-search">Global Music Search</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/global-music-search/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/global-music-search/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/global-music-search/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/global-music-search/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/global-music-search?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/global-music-search/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/global-music-search?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/global-music-search/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/global-music-search/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/global-music-search/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/global-music-search"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/global-music-search/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/global-music-search"></a></p>
+<h3 id="backup-settings">Backup Settings</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/BackupSettings/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/BackupSettings/build.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/BackupSettings/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/BackupSettings?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/BackupSettings?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/BackupSettings/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/BackupSettings/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/BackupSettings/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/BackupSettings"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/BackupSettings/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/BackupSettings"></a></p>
+<h3 id="lav-filters">LAV Filters</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/LAVFilters/releases"><img alt="MP AnyCPU" src="https://img.shields.io/badge/MP-AnyCPU-blue?logo=windows&amp;logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LAVFilters/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/LAVFilters/daily.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LAVFilters/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/LAVFilters?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LAVFilters/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/LAVFilters?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LAVFilters/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/LAVFilters/latest/total?label=release@downloads"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LAVFilters/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Mediaportal-Plugin-Team/LAVFilters"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/LAVFilters/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Mediaportal-Plugin-Team/LAVFilters"></a></p>
+<h2 id="skins">Skins</h2>
+<ul>
+<li><a href="https://github.com/Mediaportal-Plugin-Team/Titan"><img alt="Titan" src="https://img.shields.io/badge/MP-Titan-blue?logo=windows&amp;logoColor=white"></a></li>
+<li><a href="https://github.com/Mediaportal-Plugin-Team/DefaultWideHD"><img alt="Default Wide HD" src="https://img.shields.io/badge/MP-Default_Wide_HD-blue?logo=windows&amp;logoColor=white"></a></li>
+<li><a href="https://github.com/Mediaportal-Plugin-Team/PureVisionHD"><img alt="Pure Vision HD" src="https://img.shields.io/badge/MP-Pure_Vision_HD-blue?logo=windows&amp;logoColor=white"></a></li>
+<li><a href="https://github.com/Mediaportal-Plugin-Team/Ares"><img alt="Ares" src="https://img.shields.io/badge/MP-Ares-blue?logo=windows&amp;logoColor=white"></a></li>
+<li><a href="https://github.com/Mediaportal-Plugin-Team/BlackGlass"><img alt="Black Glass" src="https://img.shields.io/badge/MP-Black_Glass-blue?logo=windows&amp;logoColor=white"></a></li>
+</ul>
+<h2 id="packages">Packages</h2>
+<h3 id="sqlite">SQLite</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/SQLite/releases"><img alt="x86" src="https://img.shields.io/badge/SQLite-x86-orange?logo=windows&amp;logoColor=white"></a><a href="https://github.com/Mediaportal-Plugin-Team/SQLite/releases"><img alt="x64" src="https://img.shields.io/badge/x64-blue?logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/SQLite/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/SQLite/release.yml?logo=github"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/SQLite/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/SQLite?color=blue"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/SQLite/releases"><img alt="GitHub release (latest SemVer including pre-releases)" src="https://img.shields.io/github/v/release/Mediaportal-Plugin-Team/SQLite?include_prereleases"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/SQLite/releases"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/downloads-pre/Mediaportal-Plugin-Team/SQLite/latest/total?label=release@downloads"></a></p>
+<h3 id="myget-mirror-mediaportal">MyGet Mirror (Mediaportal)</h3>
+<p><a href="https://github.com/Mediaportal-Plugin-Team/MyGet"><img alt="x86" src="https://img.shields.io/badge/MyGet-x86-orange?logo=windows&amp;logoColor=white"></a><a href="https://github.com/Mediaportal-Plugin-Team/MyGet"><img alt="x64" src="https://img.shields.io/badge/x64-blue?logoColor=white"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/MyGet"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Mediaportal-Plugin-Team/MyGet/sync.yml?logo=github&amp;label=Sync"></a>
+<a href="https://github.com/Mediaportal-Plugin-Team/MyGet/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/Mediaportal-Plugin-Team/MyGet?color=blue"></a></p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; Mediaportal-Plugin-Team
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Mediaportal-Plugin-Team" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.features", "navigation.path", "navigation.top", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "search.suggest", "search.hightlight", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
